@@ -12,25 +12,22 @@
 <body>
   <nav class="navbar bg-light">
     <div class="container">
-      <ul class="nav" class="p-1">
+      <ul class="nav">
         <li class="p-1"><i class="bi bi-facebook"></i></li>
         <li class="p-1"><i class="bi bi-twitter"></i></li>
         <li class="p-1"><i class="bi bi-pinterest"></i></li>
         <li class="p-1"><i class="bi bi-instagram" class="p-1"></i></li>
       </ul>
-      <ul class="nav" class="justify-content-end">
+      <ul class="nav">
         <li class="p-1"><i class="bi bi-house-fill"></i></li>
         <li class="p-1"><i class="bi bi-search"></i></li>
         <li class="p-1"><i class="bi bi-person-fill"></i></li>
-        <li class="p-1"><i class="bi bi-cart"></i></li>
-        <div class="btn-group">
-          <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-            0
-          </button>
-          <ul class="dropdown-menu dropdown-menu-end">
-            <li><button class="dropdown-item" type="button">Action</button></li>
-            <li><button class="dropdown-item" type="button">Another action</button></li>
-            <li><button class="dropdown-item" type="button">Something else here</button></li>
+        <div class="nav-item dropdown" class="p-1">
+          <div class="dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="bi bi-cart"></i> 0
+          </div>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li>Your cart is empty.</li>
           </ul>
         </div>
       </ul>
